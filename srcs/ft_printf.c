@@ -6,13 +6,20 @@ int	ft_printf(const char *format, ...)
 	int	printed_chars
 	
 	printed_chars = 0;
-
 	va_start(args, format);
-    // You will iterate over the format string
-    // and handle each conversion as required.
-    // The printed_chars should be incremented
-    // with the number of chars you print.
-	va_end(args, format);
+	while (*format == '%')
+	{
+		format++;
+		switch (*format)
+		{
+			case 'd':
+			{
+				int value = va_args(args, int);
+				printed_chars = 
+
+	
+ 
+	va_end(args);
 
 	return printed_chars;
 
