@@ -12,10 +12,14 @@ int	ft_printf(const char *format, ...)
 		format++;
 		switch (*format)
 		{
-			case 'd':
+			case 'c':
 			{
-				int value = va_args(args, int);
-				printed_chars = 
+				char value = (char) va_arg(arg, int)
+				write(1, &value, 1);
+				printed_chars++;
+				break;
+			}
+			
 
 	
  

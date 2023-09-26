@@ -1,7 +1,9 @@
 NAME = libftprintf.a
-SRC = srcs/ft_printf.c srcs/helper1.c srcs/helper2.c
+SRC_DIR = src
+SRC = $(wildcard $(SRC_DIR)/* .c)
 OBJ = $(SRC:.c=.o)
-HEADER = includes/ft_printf.h
+INCLUDES_DIR = includes
+HEADER = $(INCLUDES_DIR)/ft_printf.h
 FLAGS = -Wall -Wextra -Werror
 
 all: $(NAME)
