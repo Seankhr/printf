@@ -1,6 +1,6 @@
 #include "ft_printf.h" 
 
-int	ft_print_int(int n); 
+int	ft_print_int(int n)
 {
 	char	*str; 
 	int	count;

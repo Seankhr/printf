@@ -4,7 +4,7 @@ int	ft_print_str(const char *str)
 {
 	int	 count; 
 	
-	count = 0;:wq
+	count = 0;
 	while (*str)
 	{
 		ft_putchar(*str);
