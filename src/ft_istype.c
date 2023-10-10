@@ -1,10 +1,10 @@
 #include "ft_printf.h"
 
-int	ft_istype(unsgined char c)
+int	ft_istype(unsigned char c)
 {
 	char	*valid;
 
-	valid = "cspdiuxX%"
+	valid = "cspdiuxX%";
 	while (*valid)
 	{
 		if(c == *valid)
