@@ -37,7 +37,10 @@ int ft_parse(char *str, va_list arg)
 		{
 			i++;
 			if (ft_istype(str[i]))
+			{
 				count = count + ft_print_arg(str[i], arg);
+				i++;
+			}
 			else if (str[i] != '\0')
 			{
 				count = count + ft_print_char(str[i]);

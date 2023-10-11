@@ -7,7 +7,7 @@ int	ft_print_hex_u(unsigned long int n)
 	
 	count = 0;  
 	if (n >= 16)
-		count +=  ft_print_hex_l(n/16);
+		count +=  ft_print_hex_u(n/16);
 	if (n % 16 < 10)
 		hex_digit = '0' + (n % 16);
 	else
