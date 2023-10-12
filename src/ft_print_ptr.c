@@ -6,7 +6,7 @@
 /*   By: skong <skong@student.42singapore.sg>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/11 13:05:46 by skong             #+#    #+#             */
-/*   Updated: 2023/10/11 17:36:12 by skong            ###   ########.fr       */
+/*   Updated: 2023/10/12 12:24:00 by skong            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,11 +14,11 @@
 
 int	ft_print_ptr(void *ptr)
 {
-	int	count; 
+	int	count;
 
-	count = 0; 
+	count = 0;
 	ft_print_str("0x");
-	count += 2; 
+	count += 2;
 	count += ft_print_hex_l((unsigned long int) ptr);
-	return (count); 
+	return (count);
 }

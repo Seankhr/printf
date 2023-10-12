@@ -6,7 +6,7 @@
 /*   By: skong <skong@student.42singapore.sg>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/11 13:04:47 by skong             #+#    #+#             */
-/*   Updated: 2023/10/11 13:56:03 by skong            ###   ########.fr       */
+/*   Updated: 2023/10/12 12:20:46 by skong            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #include "ft_printf.h"
@@ -23,5 +23,5 @@ int	ft_istype(unsigned char c)
 		else
 			valid++;
 	}
-	return (0); 
+	return (0);
 }

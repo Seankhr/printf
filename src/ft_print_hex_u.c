@@ -6,7 +6,7 @@
 /*   By: skong <skong@student.42singapore.sg>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/11 13:05:27 by skong             #+#    #+#             */
-/*   Updated: 2023/10/11 13:47:25 by skong            ###   ########.fr       */
+/*   Updated: 2023/10/12 12:23:01 by skong            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 int	ft_print_hex_u(unsigned long int n)
 {
-	int		count; 
+	int		count;
 	char	hex_digit;
 
 	count = 0;
